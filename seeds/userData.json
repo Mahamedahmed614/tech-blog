@@ -1,0 +1,17 @@
+[
+    {
+      "name": "Bugs Bunny",
+      "email": "bugsbunny@yahoo.com",
+      "password": "password12345"
+    },
+    {
+      "name": "Daffy Duck",
+      "email": "daffyduck@gmail.com",
+      "password": "password34567"
+    },
+    {
+      "name": "Porky Pig",
+      "email": "porkypig@outlook.com",
+      "password": "password67890"
+    }
+  ]

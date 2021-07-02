@@ -1,0 +1,14 @@
+[
+    {
+      "title": "The State of Women in Tech",
+      "content": "In 2018, women held only 25% of all jobs in the tech industry, despite making up almost half of the total workforce."
+    },
+    {
+      "title": "Is Cryptocurrency Bad for the Environment?",
+      "content": "Bitcoin mining is an energy-intensive process, using dozens of terawatts of electricity per year. However, the creators of ethereum have promised to change their currency's algorithm to make its mining less taxing on the environment."
+    },
+    {
+      "title": "Algorithmic Bias and How to Combat It",
+      "content": "Algorithms and AI can inherit the subconscious biases of their creators. The less diverse the engineering team is, the more likely it is that algorithmic bias will arise. "
+    }
+  ]

@@ -1,0 +1,45 @@
+
+<div class="row">
+  <div class="col-auto">
+    <h2>Welcome, {{name}}!</h2>
+  </div>
+</div>
+
+<div class="row mt-4">
+  <div class="col-md-6">
+    <h3>Write a New Entry:</h3>
+
+    <form class="form" id="new-entry-form">
+      <div class="form-group">
+        <label for="entry-title">entry title:</label>
+        <input class="form-input" type="text" id="entry-title" name="entry-title" />
+      </div>
+      <div class="form-group">
+        <label for="entry-content">entry content:</label>
+        <textarea class="form-input" id="entry-content" name="entry-content"></textarea>
+      </div>
+      <div class="form-group">
+        <button type="submit" class="btn btn-primary">Post!</button>
+      </div>
+    </form>
+  </div>
+
+  {{#if entries.length}}
+  <div class="col-md-6" id='entry-list'>
+    <h3>Previous Entries:</h3>
+
+    {{#each entries as |entry|}}
+    <div class="row mb-2">
+      <div class="col-md-8">
+        <h4><a href="/entry/{{entry.id}}">{{entry.title}}</a></h4>
+      </div>
+      <div class="col-md-4">
+        <button class="btn btn-sm btn-danger" data-id="{{entry.id}}">DELETE</button>
+      </div>
+    </div>
+    {{/each}}
+  </div>
+  {{/if}}
+</div>
+
+<script src="./js/dashboard.js"></script>
